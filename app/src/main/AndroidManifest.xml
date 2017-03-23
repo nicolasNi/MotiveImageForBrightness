@@ -18,11 +18,7 @@
         </activity>
 
         <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true" />
-        <service
-            android:name=".FxService"
+            android:name="com.lt.nexthud.testservice.FxService"
             android:enabled="true"
             android:exported="true"></service>
     </application>

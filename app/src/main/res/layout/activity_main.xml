@@ -9,57 +9,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/nick"
     tools:context="com.lt.nexthud.testservice.MainActivity">
 
-
     <Button
-        android:text="StartService"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="90dp"
-        android:id="@+id/button"
-        android:visibility="gone" />
-
-    <Button
-        android:text="StopService"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_alignStart="@+id/button"
-        android:visibility="gone" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
         android:layout_alignParentStart="true"
         android:layout_marginStart="54dp"
         android:layout_marginTop="61dp"
-        android:id="@+id/button3" />
+        android:text="Button" />
 
     <Button
-        android:text="Button"
+        android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button5"
         android:layout_alignBaseline="@+id/button3"
         android:layout_alignBottom="@+id/button3"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="21dp" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button4"
-        android:layout_marginBottom="56dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/button3"
-        android:visibility="gone" />
+        android:layout_marginEnd="21dp"
+        android:text="Button" />
 
 </RelativeLayout>
